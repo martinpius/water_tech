@@ -180,7 +180,7 @@ def safe_label(text: object) -> str:
     )
 
 
-def heatmap_svg(summary: pd.DataFrame, path: Path) -> None:
+def heatmap_png(summary: pd.DataFrame, path: Path) -> None:
     width, height = 980, 560
     margin_left, margin_top = 180, 95
     cell_w, cell_h = 145, 78
